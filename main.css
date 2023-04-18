@@ -1,0 +1,42 @@
+* {
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #E7E7E7;
+    padding-top: 100px;
+}
+
+header {
+    font-size: 30px;
+    text-transform: uppercase;
+    display: flex;
+    justify-content: center;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.container input {
+    font-size: 28px;
+    padding: 5px;
+}
+
+.container button {
+    cursor: pointer;
+    font-size: 28px;
+    padding: 5px 10px;
+    background-color: rgb(27, 173, 88);
+}
+
+.container ul {
+    padding-top: 50px;
+}
+
+.container ul li {
+    font-size: 25px;
+    padding: 8px;
+}
