@@ -6,7 +6,11 @@ $(document).ready(function(){
         $('#nova-tarefa').val('');
     })
 
-    $('li').on('click', function(){
+    $('ul').on('click','li', function(){
         $(this).css('text-decoration', 'line-through');
+    })
+
+    $('ul').on('dblclick','li', function(){
+        $(this).css('text-decoration', 'none');
     })
 })
